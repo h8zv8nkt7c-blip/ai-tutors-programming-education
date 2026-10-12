@@ -1,0 +1,9 @@
+participant_id,condition,baseline_score,practice_score,delayed_transfer_score
+S001,guided_hints,42,78,73
+S002,guided_hints,55,84,80
+S003,unrestricted_chatbot,44,91,62
+S004,unrestricted_chatbot,57,95,74
+S005,no_ai_control,41,67,65
+S006,no_ai_control,56,76,73
+S007,guided_hints,38,72,70
+S008,unrestricted_chatbot,39,89,60

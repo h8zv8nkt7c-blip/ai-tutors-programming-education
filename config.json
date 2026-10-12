@@ -1,0 +1,9 @@
+{
+  "dataset": "data/sample/sample.csv",
+  "condition_order": ["guided_hints", "unrestricted_chatbot", "no_ai_control"],
+  "score_min": 0,
+  "score_max": 100,
+  "primary_outcome": "delayed_transfer_score",
+  "follow_up_days": 7,
+  "output": "results/latest.json"
+}

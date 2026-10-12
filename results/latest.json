@@ -1,0 +1,120 @@
+{
+  "study": "AI tutors in introductory Python education",
+  "dataset": "data/sample/sample.csv",
+  "synthetic_sample": true,
+  "primary_outcome": "delayed_transfer_score",
+  "follow_up_days": 7,
+  "n_total": 8,
+  "groups": {
+    "guided_hints": {
+      "n": 3,
+      "baseline_score": {
+        "n": 3,
+        "mean": 45.0,
+        "sd": 8.888194417315589,
+        "median": 42.0,
+        "min": 38.0,
+        "max": 55.0
+      },
+      "practice_score": {
+        "n": 3,
+        "mean": 78.0,
+        "sd": 6.0,
+        "median": 78.0,
+        "min": 72.0,
+        "max": 84.0
+      },
+      "delayed_transfer_score": {
+        "n": 3,
+        "mean": 74.33333333333333,
+        "sd": 5.131601439446884,
+        "median": 73.0,
+        "min": 70.0,
+        "max": 80.0
+      },
+      "practice_to_delayed_gap": {
+        "n": 3,
+        "mean": 3.6666666666666665,
+        "sd": 1.5275252316519468,
+        "median": 4.0,
+        "min": 2.0,
+        "max": 5.0
+      }
+    },
+    "unrestricted_chatbot": {
+      "n": 3,
+      "baseline_score": {
+        "n": 3,
+        "mean": 46.666666666666664,
+        "sd": 9.29157324317757,
+        "median": 44.0,
+        "min": 39.0,
+        "max": 57.0
+      },
+      "practice_score": {
+        "n": 3,
+        "mean": 91.66666666666667,
+        "sd": 3.0550504633038935,
+        "median": 91.0,
+        "min": 89.0,
+        "max": 95.0
+      },
+      "delayed_transfer_score": {
+        "n": 3,
+        "mean": 65.33333333333333,
+        "sd": 7.571877794400365,
+        "median": 62.0,
+        "min": 60.0,
+        "max": 74.0
+      },
+      "practice_to_delayed_gap": {
+        "n": 3,
+        "mean": 26.333333333333332,
+        "sd": 4.618802153517006,
+        "median": 29.0,
+        "min": 21.0,
+        "max": 29.0
+      }
+    },
+    "no_ai_control": {
+      "n": 2,
+      "baseline_score": {
+        "n": 2,
+        "mean": 48.5,
+        "sd": 10.606601717798213,
+        "median": 48.5,
+        "min": 41.0,
+        "max": 56.0
+      },
+      "practice_score": {
+        "n": 2,
+        "mean": 71.5,
+        "sd": 6.363961030678928,
+        "median": 71.5,
+        "min": 67.0,
+        "max": 76.0
+      },
+      "delayed_transfer_score": {
+        "n": 2,
+        "mean": 69.0,
+        "sd": 5.656854249492381,
+        "median": 69.0,
+        "min": 65.0,
+        "max": 73.0
+      },
+      "practice_to_delayed_gap": {
+        "n": 2,
+        "mean": 2.5,
+        "sd": 0.7071067811865476,
+        "median": 2.5,
+        "min": 2.0,
+        "max": 3.0
+      }
+    }
+  },
+  "primary_contrasts_delayed_score_points": {
+    "guided_hints_minus_unrestricted_chatbot": 9.0,
+    "guided_hints_minus_no_ai_control": 5.3333
+  },
+  "note": "Descriptive summary only; this script does not perform inferential tests or establish causal effects."
+}

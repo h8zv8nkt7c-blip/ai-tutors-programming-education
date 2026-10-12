@@ -1,0 +1,2 @@
+# Pinned optional interactive environment; benchmark.py uses only the Python standard library.
+jupyterlab==4.6.3
