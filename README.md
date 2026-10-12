@@ -52,7 +52,7 @@ Keep topic coverage, time, task difficulty, instructions, instructor, scoring ru
 ├── notebooks/                   # Optional exploratory notebooks
 ├── results/                     # Generated output; ignored by Git
 ├── src/benchmark.py             # Validation and descriptive summaries
-├── Карточка_методологии.md       # Russian methodology passport card
+├── methodology_card.md          # Research methodology card
 ├── .dockerignore
 ├── Dockerfile
 ├── requirements.txt
